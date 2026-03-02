@@ -41,14 +41,49 @@ AzureActivity
 - Reconfigured subscription-level logging
 - Validated ingestion pipeline
 
+## Day 6 – Infrastructure as Code (Terraform)
+- Created Terraform configuration for Azure infrastructure
+- Configured azurerm provider with required features block
+- Initialized working directory using `terraform init`
+- Resolved provider configuration errors
+- Troubleshot Terraform state lock issue in Azure Cloud Shell
+- Manually cleared local state lock file
+- Successfully validated configuration using `terraform validate`
+- Executed `terraform plan` to review infrastructure changes
+
 ## Screenshots
 ![Screentshot](azure/screenshots)
 
 ## Skills Demonstrated
-- SIEM Deployment (Microsoft Sentinel)
-- Log Pipeline Engineering
-- KQL Detection Development
-- MITRE ATT&CK Mapping
-- Cloud Incident Simulation
-- Azure Subscription-Level Logging
-- Troubleshooting Telemetry Failures
+
+###  Detection Engineering
+- Built custom KQL detection for Azure resource group deletion
+- Mapped detection to MITRE ATT&CK (T1078 – Valid Accounts)
+- Tuned analytics rule logic
+- Generated and validated Sentinel incidents
+
+### Log Analysis & KQL
+- Queried AzureActivity logs using KQL
+- Filtered by OperationNameValue and ActivityStatusValue
+- Sorted and summarized subscription-level telemetry
+- Validated log ingestion pipeline
+
+###Cloud Security Monitoring
+- Configured subscription-level Diagnostic Settings
+- Enabled Azure Activity log ingestion to Log Analytics
+- Enabled Microsoft Sentinel workspace
+- Investigated incidents in Defender portal
+
+###Troubleshooting & Incident Simulation
+- Simulated resource group deletion attack
+- Diagnosed broken telemetry pipeline
+- Identified missing diagnostic configuration
+- Reconfigured subscription-level logging
+- Validated end-to-end alert generation
+
+### Infrastructure as Code (Terraform)
+- Configured azurerm provider
+- Resolved missing `features {}` provider error
+- Initialized Terraform working directory
+- Troubleshot Terraform state lock issue
+- Validated and planned infrastructure changes
