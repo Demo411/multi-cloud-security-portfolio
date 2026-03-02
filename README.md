@@ -1,5 +1,27 @@
 # multi-cloud-security-portfolio
+
 # Azure Incident Response & Detection Engineering Lab
+
+
+## Project Summary
+
+This project simulates a real-world cloud security monitoring environment using Microsoft Azure and Microsoft Sentinel. The objective was to design, deploy, and validate an end-to-end detection pipeline capable of identifying suspicious administrative activity within an Azure subscription.
+
+The lab specifically simulates a resource group deletion attack to demonstrate how cloud activity logs can be ingested, analyzed, and converted into actionable security incidents within a SIEM platform.
+
+## Problem Simulated
+
+Cloud environments rely heavily on administrative actions. If a malicious or compromised account deletes critical infrastructure (e.g., a resource group), organizations must detect and respond immediately.
+
+This project demonstrates:
+
+- Subscription-level Azure Activity Log ingestion
+- Custom KQL detection rule creation
+- MITRE ATT&CK mapping (T1078 – Valid Accounts)
+- Incident generation and validation in Microsoft Sentinel
+- Telemetry troubleshooting when diagnostic settings were misconfigured
+- Infrastructure automation using Terraform
+
 
 ## Overview
 Built a multi-cloud detection engineering lab in Azure using Microsoft Sentinel as a SIEM platform. Implemented subscription-level logging, custom KQL detection rules, and simulated attack scenarios.
@@ -53,6 +75,18 @@ AzureActivity
 
 ## Screenshots
 ![Screentshot](azure/screenshots)
+
+
+## Tools & Technologies Used
+
+- Microsoft Azure
+- Log Analytics Workspace
+- Microsoft Sentinel (Microsoft Defender Portal)
+- Azure Activity Logs
+- Kusto Query Language (KQL)
+- MITRE ATT&CK Framework
+- Terraform (Infrastructure as Code)
+- Git & GitHub (Version control and documentation)
 
 ## Skills Demonstrated
 
