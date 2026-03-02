@@ -42,7 +42,7 @@ AzureActivity
 - Validated ingestion pipeline
 
 ## Screenshots
-![Detection Logic](azure/screenshots)
+![Screentshot](azure/screenshots)
 
 ## Skills Demonstrated
 - SIEM Deployment (Microsoft Sentinel)
