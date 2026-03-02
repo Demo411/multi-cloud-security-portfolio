@@ -5,7 +5,7 @@
 
 ## Project Summary
 
-This project simulates a real-world cloud security monitoring environment using Microsoft Azure and Microsoft Sentinel. The objective was to design, deploy, and validate an end-to-end detection pipeline capable of identifying suspicious administrative activity within an Azure subscription.
+The objective was to design, deploy, and validate an end-to-end cloud detection pipeline capable of identifying high-impact administrative abuse, validating log integrity, and generating actionable security incidents within a SIEM environment.
 
 The lab specifically simulates a resource group deletion attack to demonstrate how cloud activity logs can be ingested, analyzed, and converted into actionable security incidents within a SIEM platform.
 
