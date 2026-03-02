@@ -42,9 +42,9 @@ AzureActivity
 - Validated ingestion pipeline
 
 ## Screenshots
+![Detection Logic](azure/screenshots)
 
 ## Skills Demonstrated
-
 - SIEM Deployment (Microsoft Sentinel)
 - Log Pipeline Engineering
 - KQL Detection Development
