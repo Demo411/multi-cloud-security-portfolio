@@ -41,6 +41,7 @@ AzureActivity
 - Reconfigured subscription-level logging
 - Validated ingestion pipeline
 
+## Screenshots
 
 ## Skills Demonstrated
 
